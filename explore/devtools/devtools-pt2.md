@@ -1,0 +1,2 @@
+1. The bug is it is concatenating the values of "num1" and "num2". It is not adding the values. 
+2. To fix this issue, I would run ParseInt() when initalizing the num1 and num2 variables. This would convert the inputs to type int. 
