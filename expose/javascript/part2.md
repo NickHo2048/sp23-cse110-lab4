@@ -15,4 +15,27 @@
     C. student.greeting();
     D. student["Favorite Teacher"].name;
     E. student.courseLoad[0];
-13. 
+13.
+    A. 32; it put the 2 after the 3 and made what in other languages would be a string
+    B. 1; it subtracted the value of 2 from the value of 3 getting 1
+    C. 3; it added nothing to 3, giving 3
+    D. 3null; it added the word null to 3, giving 3null
+    E. 4; it made the value of true be 1 and added it to 3
+    F. 3; it made the value of false to be 0 and added it to 3
+    G. 3undefined; it added the word undefined to 3
+    H. NaN; it tried to subtract the value of undefined from 3 but that returns a nonreal value
+14.
+    A. true; this is because the value of 2 is greater than 1
+    B. false; this is because it compared them lexicographically and compared the first value of each: 1 and 2
+    C. true; this is because lexicographically they are the same
+    D. false; this is because the types are different. One is technically a string while the other is a number
+    E. false; they are not the same lexicographically or by value
+    F. true; any number not 0 is treated as true in Boolean
+15.  The == can adapt to the situation. It can compare lexicographically. It can compare type/value. However, the === will look at all of them. They have to be the same type and value.
+16.  Check part2-question16.js
+17.  [2, 4, 6]; I ran the code on part2-question17.js, and I added some print statements, so I could see what was being passed. I realized the function name doSomething was passed to the modifyArray function and still allowed for the doSomething function to be called. 
+18.  Check part2-question18.js
+19.  1
+     4
+     3
+     2
